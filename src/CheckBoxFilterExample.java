@@ -1,14 +1,12 @@
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+public class CheckBoxFilterExample extends JFrame {
 
-public class CheckBoxWithFilterButton extends JFrame {
-
-    public CheckBoxWithFilterButton() {
+    public CheckBoxFilterExample() {
         super("Checkbox with Filter Button");
 
         // Create a new JPanel to hold the checkbox and button
@@ -23,7 +21,7 @@ public class CheckBoxWithFilterButton extends JFrame {
 
         // Add the checkbox and button to the panel
         panel.add(checkBox, BorderLayout.CENTER);
-        panel.add(button, BorderLayout.EAST);
+        panel.add(button, BorderLayout.SOUTH);
 
         // Add the panel to the frame
         add(panel);
@@ -33,26 +31,14 @@ public class CheckBoxWithFilterButton extends JFrame {
         setVisible(true);
 
         // Add an action listener to the button
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Object source = null;
-                if (source instanceof JButton) {
-                    JButton button = (JButton) source;
-                    if (button.isSelected()) {
-                        // Get the text of the button.
-                        String text = button.getText();
-
-                // TODO: Implement the filter logic here
-            }
-        };
+        button.addActionListener(CheckBoxFilterExample::actionPerformed);
     }
 
-    public void main(String[] args) {
-        new CheckBoxWithFilterButton();
+    public static void main(String[] args) {
+        new CheckBoxFilterExample();
     }
-}
-)
-        ;
+
+    private static void actionPerformed(ActionEvent e) {
+        // TODO: Implement the filter logic here
     }
 }
