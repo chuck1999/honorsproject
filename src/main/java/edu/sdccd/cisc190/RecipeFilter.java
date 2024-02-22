@@ -1,3 +1,7 @@
+package edu.sdccd.cisc190;
+
+import edu.sdccd.cisc190.Recipe;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

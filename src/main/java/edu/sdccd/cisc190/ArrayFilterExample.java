@@ -1,3 +1,5 @@
+package edu.sdccd.cisc190;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
