@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6193e461-c963-4c2f-90e7-7c9f0ed09c6d" name="Changes" comment="honors project">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/sdccd/cisc190/RecipeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayFilterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc190/ArrayFilterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheckBoxFilterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc190/CheckBoxFilterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc190/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc190/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecipeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc190/RecipeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextFilterButtonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc190/TextFilterButtonExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="6193e461-c963-4c2f-90e7-7c9f0ed09c6d" name="Changes" comment="Added Example unit test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708023577618</updated>
       <workItem from="1708023578838" duration="14853000" />
-      <workItem from="1708632982961" duration="1623000" />
+      <workItem from="1708632982961" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="honors project">
       <option name="closed" value="true" />
@@ -162,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708632796220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Example unit test">
+      <option name="closed" value="true" />
+      <created>1708634839789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708634839789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="honors project" />
-    <option name="LAST_COMMIT_MESSAGE" value="honors project" />
+    <MESSAGE value="Added Example unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Example unit test" />
   </component>
 </project>
